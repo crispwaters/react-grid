@@ -1,0 +1,26 @@
+.Grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.Grid:hover {
+  cursor: pointer
+}
+
+.Row {
+  display: flex;
+}
+
+.Column {
+  width: 5px;
+  height: 5px;
+}
+
+.Column-On {
+  background-color: yellow;
+}
+
+.Column-Off {
+  background-color: black;
+}
+

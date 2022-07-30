@@ -1,0 +1,27 @@
+.Adjustor {
+  position: fixed;
+  text-align: center
+}
+
+.Adjustor-Top {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.Adjustor-Bottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.Adjustor-Group {
+  display: inline-block;
+}
+
+.Adjustor-Group + .Adjustor-Group {
+  padding-left: 35px;
+}
+
